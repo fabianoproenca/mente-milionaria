@@ -1,138 +1,234 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mente Milionária — Quebre os 7 Bloqueios que Impedem Sua Prosperidade em 21 Dias</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    !function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', 'SEU_PIXEL_ID_AQUI');
-    fbq('track', 'PageView');
-  </script>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&display=swap');
-    body { font-family: 'Inter', sans-serif; }
-    .gradient-text { background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
-    .cta-btn { background: linear-gradient(135deg, #a855f7 0%, #6366f1 100%); transition: all 0.3s ease; box-shadow: 0 0 30px rgba(168,85,247,0.4); }
-    .cta-btn:hover { transform: translateY(-3px); box-shadow: 0 0 50px rgba(168,85,247,0.6); }
-    .pulse { animation: pulse 2s infinite; }
-    @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mente Milionaria — Reprogramacao Mental para a Riqueza</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@keyframes shake{0%,100%{transform:translateX(0)}10%,30%,50%,70%,90%{transform:translateX(-4px)}20%,40%,60%,80%{transform:translateX(4px)}}
+@keyframes flash{0%,100%{background:#dc2626}50%{background:#ca8a04}}
+.shake{animation:shake 0.8s ease-in-out infinite}
+.flash{animation:flash 1s ease-in-out infinite}
+.sbar{position:fixed;bottom:0;left:0;right:0;z-index:100;background:#111827;border-top:2px solid rgba(168,85,247,.5);padding:10px 16px}
+</style>
 </head>
-<body class="bg-gray-950 text-white">
-  <div class="bg-purple-700 text-white text-center py-3 px-4">
-    <p class="text-sm font-bold">⏱️ OFERTA DE LANÇAMENTO — R$ 37 (normal: R$ 97) — Encerra em: <span id="countdown-top" class="font-mono text-yellow-300 font-black">00:00:00</span></p>
+<body class="bg-gray-950 text-white font-sans pb-24">
+<script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','SEU_PIXEL_ID_AQUI');fbq('track','PageView');</script>
+<noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=SEU_PIXEL_ID_AQUI&ev=PageView&noscript=1"/></noscript>
+
+<div id="topbar" class="flash text-white text-center py-2 px-4">
+  <p class="text-sm font-black">&#9200; OFERTA ESPECIAL EXPIRA EM: <span id="ct1" class="font-mono">10:00</span> &mdash; DEPOIS O PRECO SOBE!</p>
+</div>
+
+<div class="max-w-lg mx-auto px-4 pt-6 pb-4">
+  <p class="text-center text-xs uppercase tracking-widest text-purple-400 font-bold mb-2">METODO APLICADO POR +5.000 PESSOAS</p>
+  <h1 class="text-3xl font-black text-center leading-tight mb-2">
+    O <span class="text-purple-400">Segredo Mental</span> Que Separa os Ricos dos Pobres &mdash; E Como Voce Pode <span class="text-yellow-400">Cruzar Esse Limite</span> Hoje
+  </h1>
+  <p class="text-center text-gray-400 text-sm mb-4">Descubra como reprogramar sua mente para atrair dinheiro, oportunidades e prosperidade de forma natural</p>
+
+  <div class="flex items-center justify-center gap-4 mb-6 text-xs">
+    <span class="text-purple-400 font-bold">&#9679; <span id="vw">41</span> pessoas vendo agora</span>
+    <span class="text-gray-600">|</span>
+    <span class="text-gray-400">87 compraram hoje</span>
   </div>
-  <section class="max-w-4xl mx-auto px-6 py-16 text-center">
-    <div class="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 rounded-full px-4 py-2 mb-8">
-      <span class="w-2 h-2 bg-purple-400 rounded-full pulse"></span>
-      <span class="text-purple-400 text-sm font-semibold">Baseado em neurociência — Método de reprogramação mental em 21 dias</span>
+
+  <div class="flex justify-center mb-6">
+    <div style="display:inline-block;transform:perspective(600px) rotateY(-18deg) rotateX(5deg);filter:drop-shadow(25px 25px 35px rgba(0,0,0,.7))">
+      <div style="width:170px;height:230px;background:linear-gradient(150deg,#c084fc,#7c3aed,#3b0764);border-radius:3px 10px 10px 3px;position:relative;overflow:hidden;box-shadow:inset -3px 0 8px rgba(0,0,0,.3)">
+        <div style="position:absolute;left:0;top:0;bottom:0;width:20px;background:rgba(0,0,0,.35)"></div>
+        <div style="position:absolute;top:0;left:20px;right:0;height:35%;background:linear-gradient(180deg,rgba(255,255,255,.15),transparent)"></div>
+        <div style="position:absolute;top:12px;left:28px;right:8px;text-align:center">
+          <div style="font-size:7px;color:rgba(255,255,255,.8);letter-spacing:2px;text-transform:uppercase;margin-bottom:6px">REPROGRAMACAO MENTAL</div>
+          <div style="font-size:17px;font-weight:900;color:#fff;line-height:1.1;text-shadow:0 2px 8px rgba(0,0,0,.5)">MENTE<br>MILIONARIA</div>
+          <div style="margin-top:8px;height:2px;background:rgba(255,255,255,.4);border-radius:1px"></div>
+          <div style="margin-top:6px;font-size:7px;color:rgba(255,255,255,.7);text-transform:uppercase;letter-spacing:1px">Mindset da Riqueza</div>
+        </div>
+        <div style="position:absolute;bottom:12px;left:28px;right:8px;text-align:center">
+          <div style="font-size:7px;color:rgba(255,255,255,.5);text-transform:uppercase;letter-spacing:1px">Edicao Completa</div>
+        </div>
+      </div>
     </div>
-    <h1 class="text-4xl md:text-6xl font-black leading-tight mb-6">
-      Você Não É Pobre<br>por Falta de Esforço.<br>
-      São <span class="gradient-text">7 Bloqueios Mentais</span><br>
-      que Ninguém Te Ensinou a Quebrar
-    </h1>
-    <p class="text-xl text-gray-300 mb-4 max-w-2xl mx-auto">
-      Crenças formadas <strong class="text-white">antes dos 7 anos de idade</strong> estão sabotando sua prosperidade hoje. Descubra quais são — e como eliminar cada uma em apenas 21 dias.
-    </p>
-    <div class="flex flex-wrap items-center justify-center gap-4 mb-10 text-sm text-gray-400">
-      <span>⭐⭐⭐⭐⭐ +3.200 alunos</span><span class="hidden md:inline">|</span>
-      <span>🏆 Resultado em 21 dias</span><span class="hidden md:inline">|</span>
-      <span>🛡️ 7 dias de garantia total</span>
+  </div>
+
+  <div class="bg-gray-900 rounded-xl p-3 mb-5 border border-gray-800">
+    <div class="flex justify-between text-xs mb-1">
+      <span class="text-yellow-400 font-bold">&#128293; Vagas com desconto</span>
+      <span class="text-red-400 font-bold">Apenas 13 restantes</span>
     </div>
-    <a href="https://pay.kiwify.com.br/u2N56QJ" onclick="fbq('track','InitiateCheckout',{value:37,currency:'BRL'})" class="cta-btn inline-block text-white font-black text-xl px-10 py-5 rounded-2xl mb-4 no-underline">
-      🧠 QUERO MINHA MENTE MILIONÁRIA — R$ 37
+    <div class="w-full bg-gray-800 rounded-full h-3">
+      <div class="h-3 rounded-full bg-gradient-to-r from-yellow-500 to-red-500" style="width:87%"></div>
+    </div>
+    <p class="text-xs text-gray-500 mt-1 text-center">87% das vagas preenchidas</p>
+  </div>
+
+  <a href="https://pay.kiwify.com.br/u2N56QJ" class="shake block w-full bg-purple-600 hover:bg-purple-500 text-white font-black py-4 px-6 rounded-2xl text-lg text-center uppercase tracking-wide mb-3">
+    QUERO MINHA MENTE MILIONARIA &rarr;
+  </a>
+  <p class="text-center text-xs text-gray-500 mb-6">&#128274; Pagamento seguro &middot; Acesso imediato &middot; Garantia 7 dias</p>
+
+  <div class="bg-gray-900 border border-red-900 rounded-xl p-4 mb-6 text-center">
+    <p class="text-xs text-gray-400 uppercase tracking-widest mb-1">Preco especial acaba em</p>
+    <p class="text-4xl font-black text-red-400 font-mono" id="ct2">10:00</p>
+    <p class="text-xs text-gray-500 mt-1">Depois volta para R$97</p>
+  </div>
+
+  <div class="mb-8">
+    <h2 class="text-xl font-black text-center mb-4">Voce se reconhece nisso?</h2>
+    <div class="space-y-3">
+      <div class="flex items-start gap-3 bg-gray-900 p-3 rounded-xl border border-gray-800">
+        <span class="text-2xl">&#128565;</span>
+        <p class="text-sm text-gray-300">Voce sabe que merece mais dinheiro mas algo dentro de voce te impede de avançar</p>
+      </div>
+      <div class="flex items-start gap-3 bg-gray-900 p-3 rounded-xl border border-gray-800">
+        <span class="text-2xl">&#128542;</span>
+        <p class="text-sm text-gray-300">Sempre que começa a ter dinheiro, aparece um gasto inesperado ou voce gasta tudo</p>
+      </div>
+      <div class="flex items-start gap-3 bg-gray-900 p-3 rounded-xl border border-gray-800">
+        <span class="text-2xl">&#128532;</span>
+        <p class="text-sm text-gray-300">Voce sente que rico e so quem ja nasce rico &mdash; que para voce isso nao e possivel</p>
+      </div>
+      <div class="flex items-start gap-3 bg-gray-900 p-3 rounded-xl border border-gray-800">
+        <span class="text-2xl">&#129300;</span>
+        <p class="text-sm text-gray-300">Voce sabota inconscientemente as proprias conquistas e nao entende por que</p>
+      </div>
+    </div>
+    <p class="text-center text-purple-400 font-bold mt-4 text-sm">Isso nao e falta de esforco. E programacao mental. E da para mudar.</p>
+  </div>
+
+  <div class="mb-8">
+    <h2 class="text-xl font-black text-center mb-4">O que voce vai descobrir:</h2>
+    <div class="space-y-3">
+      <div class="flex items-start gap-3">
+        <span class="text-purple-400 font-black text-xl mt-0.5">&#10003;</span>
+        <p class="text-sm text-gray-300"><strong class="text-white">As 7 crencas limitantes do pobre</strong> &mdash; identifique e elimine o que esta bloqueando sua prosperidade</p>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="text-purple-400 font-black text-xl mt-0.5">&#10003;</span>
+        <p class="text-sm text-gray-300"><strong class="text-white">O metodo de reprogramacao em 21 dias</strong> &mdash; tecnicas cientificas para reescrever sua relacao com dinheiro</p>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="text-purple-400 font-black text-xl mt-0.5">&#10003;</span>
+        <p class="text-sm text-gray-300"><strong class="text-white">Como pensar como os ricos pensam</strong> &mdash; as decisoes financeiras que os milionarios tomam e voce nao faz</p>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="text-purple-400 font-black text-xl mt-0.5">&#10003;</span>
+        <p class="text-sm text-gray-300"><strong class="text-white">A rotina da prosperidade</strong> &mdash; os habitos diarios que atraem oportunidades e crescimento financeiro</p>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="text-purple-400 font-black text-xl mt-0.5">&#10003;</span>
+        <p class="text-sm text-gray-300"><strong class="text-white">Como tomar decisoes que multiplicam dinheiro</strong> &mdash; a logica por tras de cada escolha financeira inteligente</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mb-8">
+    <h2 class="text-xl font-black text-center mb-4">Transformacoes reais:</h2>
+    <div class="space-y-4">
+      <div class="bg-gray-900 rounded-xl p-4 border border-gray-800">
+        <div class="flex items-center gap-3 mb-2">
+          <div class="w-10 h-10 rounded-full bg-purple-900 flex items-center justify-center font-black text-purple-300 text-lg">J</div>
+          <div>
+            <p class="font-bold text-sm">Juliana C.</p>
+            <p class="text-xs text-gray-500">Professora &mdash; GO</p>
+          </div>
+          <div class="ml-auto text-yellow-400 text-xs font-bold">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <p class="text-sm text-gray-300">"Apliquei o metodo dos 21 dias e em 3 meses recebi duas propostas de trabalho que duplicaram minha renda. A mente estava travando o que o esforco ja merecia."</p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-4 border border-gray-800">
+        <div class="flex items-center gap-3 mb-2">
+          <div class="w-10 h-10 rounded-full bg-purple-900 flex items-center justify-center font-black text-purple-300 text-lg">G</div>
+          <div>
+            <p class="font-bold text-sm">Gabriel O.</p>
+            <p class="text-xs text-gray-500">Empreendedor &mdash; RS</p>
+          </div>
+          <div class="ml-auto text-yellow-400 text-xs font-bold">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <p class="text-sm text-gray-300">"Sempre quebrava. Depois da reprogramacao, comecei a guardar dinheiro naturalmente, sem esforco. Hoje tenho reserva e nao vivo mais no sufoco."</p>
+      </div>
+      <div class="bg-gray-900 rounded-xl p-4 border border-gray-800">
+        <div class="flex items-center gap-3 mb-2">
+          <div class="w-10 h-10 rounded-full bg-purple-900 flex items-center justify-center font-black text-purple-300 text-lg">L</div>
+          <div>
+            <p class="font-bold text-sm">Leticia V.</p>
+            <p class="text-xs text-gray-500">Autonoma &mdash; BA</p>
+          </div>
+          <div class="ml-auto text-yellow-400 text-xs font-bold">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        </div>
+        <p class="text-sm text-gray-300">"Passei a vida inteira acreditando que nao nasci para ser rica. O guia virou isso de cabeca pra baixo. Hoje cobro o triplo do que cobrava."</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900 rounded-2xl p-5 mb-6 border border-purple-900">
+    <p class="text-center text-xs uppercase tracking-widest text-purple-400 font-bold mb-3">BONUS EXCLUSIVOS (so hoje)</p>
+    <div class="space-y-3">
+      <div class="flex items-start gap-3">
+        <span class="text-2xl">&#127873;</span>
+        <div>
+          <p class="font-bold text-sm">Meditacoes Guiadas para Abundancia</p>
+          <p class="text-xs text-gray-400">5 audio-meditacoes para reprogramar enquanto voce dorme. Valor: R$47 &mdash; GRATIS</p>
+        </div>
+      </div>
+      <div class="flex items-start gap-3">
+        <span class="text-2xl">&#127873;</span>
+        <div>
+          <p class="font-bold text-sm">Diario de Afirmacoes Milionarias</p>
+          <p class="text-xs text-gray-400">30 dias de afirmacoes cientificamente estruturadas. Valor: R$27 &mdash; GRATIS</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-900 rounded-2xl p-6 mb-4 border border-purple-800 text-center">
+    <p class="text-xs uppercase tracking-widest text-gray-500 mb-1">INVESTIMENTO</p>
+    <p class="text-gray-500 line-through text-lg">De R$97,00</p>
+    <p class="text-5xl font-black text-purple-400 my-1">R$37</p>
+    <p class="text-xs text-gray-400 mb-4">Pagamento unico &middot; Acesso vitalicio</p>
+    <a href="https://pay.kiwify.com.br/u2N56QJ" class="shake block w-full bg-purple-600 hover:bg-purple-500 text-white font-black py-4 px-6 rounded-2xl text-lg uppercase tracking-wide mb-3">
+      QUERO MINHA MENTE MILIONARIA &rarr;
     </a>
-    <p class="text-gray-500 text-sm">🔒 Pix, Cartão ou Boleto · 7 dias de garantia · Acesso imediato</p>
-  </section>
-  <section class="bg-gray-900/70 py-16">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-black text-center mb-4">Você se identifica com <span class="gradient-text">alguma dessas situações?</span></h2>
-      <p class="text-gray-400 text-center mb-10">Se marcou pelo menos 3 — sua mente está no modo bloqueio. E tem solução.</p>
-      <div class="space-y-3">
-        <div class="flex items-start gap-3 bg-gray-900 border border-red-500/20 rounded-xl p-4"><span class="text-red-400 text-xl shrink-0 mt-0.5">✗</span><p class="text-gray-300">Você trabalha muito mais que outras pessoas, mas o dinheiro nunca sobra no final do mês</p></div>
-        <div class="flex items-start gap-3 bg-gray-900 border border-red-500/20 rounded-xl p-4"><span class="text-red-400 text-xl shrink-0 mt-0.5">✗</span><p class="text-gray-300">Sempre que você começa a ganhar um pouco mais, aparece um imprevisto e você volta à estaca zero</p></div>
-        <div class="flex items-start gap-3 bg-gray-900 border border-red-500/20 rounded-xl p-4"><span class="text-red-400 text-xl shrink-0 mt-0.5">✗</span><p class="text-gray-300">No fundo, você acredita que "dinheiro é coisa de gente sortuda" ou "eu não nasci para ser rico"</p></div>
-        <div class="flex items-start gap-3 bg-gray-900 border border-red-500/20 rounded-xl p-4"><span class="text-red-400 text-xl shrink-0 mt-0.5">✗</span><p class="text-gray-300">Você sente culpa quando gasta algo em si mesmo, ou tem vergonha de cobrar o que o seu trabalho realmente vale</p></div>
-        <div class="flex items-start gap-3 bg-gray-900 border border-red-500/20 rounded-xl p-4"><span class="text-red-400 text-xl shrink-0 mt-0.5">✗</span><p class="text-gray-300">Você procrastina decisões financeiras importantes porque no fundo acredita que "não vai dar certo de qualquer jeito"</p></div>
-      </div>
-      <div class="mt-8 bg-purple-500/10 border border-purple-500/30 rounded-xl p-6 text-center">
-        <p class="text-purple-300 font-semibold">Se você marcou 3 ou mais: <strong class="text-white">sua mente está programada para a escassez</strong> — e você nunca vai prosperar até reprogramá-la.</p>
-        <p class="text-gray-400 mt-2 text-sm">A boa notícia: crenças podem ser reescritas. Neurociência comprova. 21 dias são suficientes.</p>
-      </div>
+    <div class="flex items-center justify-center gap-3 text-xs text-gray-500 flex-wrap">
+      <span>&#128274; Pix &middot; Cartao</span>
+      <span>&#128241; Acesso imediato</span>
+      <span>&#9989; Garantia 7 dias</span>
     </div>
-  </section>
-  <section class="py-16">
-    <div class="max-w-3xl mx-auto px-6">
-      <h2 class="text-3xl font-black text-center mb-4">O que você vai <span class="gradient-text">aprender e transformar</span></h2>
-      <p class="text-gray-400 text-center mb-10">Método completo, prático e baseado em ciência para reprogramar sua mente para a prosperidade</p>
-      <div class="space-y-4">
-        <div class="flex items-start gap-4 bg-gray-900 rounded-xl p-5 border border-gray-800"><span class="text-2xl shrink-0">🧠</span><div><strong>Os 7 Bloqueios Mentais identificados — e como eliminar cada um</strong><p class="text-gray-400 text-sm mt-1">Cada bloqueio tem um protocolo específico de dissolução. Você vai saber exatamente qual é o seu e o que fazer agora.</p></div></div>
-        <div class="flex items-start gap-4 bg-gray-900 rounded-xl p-5 border border-gray-800"><span class="text-2xl shrink-0">⚡</span><div><strong>A neurociência da reprogramação mental em 21 dias</strong><p class="text-gray-400 text-sm mt-1">Como o cérebro cria novos circuitos neurais e por que 21 dias é o tempo mínimo comprovado pela ciência para mudança de comportamento.</p></div></div>
-        <div class="flex items-start gap-4 bg-gray-900 rounded-xl p-5 border border-gray-800"><span class="text-2xl shrink-0">🌅</span><div><strong>O protocolo matinal de 30 minutos que cria mente milionária</strong><p class="text-gray-400 text-sm mt-1">Rotina usada pelos empresários mais prósperos do mundo — simplificada para você aplicar amanhã de manhã.</p></div></div>
-        <div class="flex items-start gap-4 bg-gray-900 rounded-xl p-5 border border-gray-800"><span class="text-2xl shrink-0">📊</span><div><strong>Os 10 hábitos comuns entre as pessoas prósperas</strong><p class="text-gray-400 text-sm mt-1">Não é sorte. É padrão replicável. E você pode copiar cada um desses padrões a partir de hoje.</p></div></div>
-        <div class="flex items-start gap-4 bg-gray-900 rounded-xl p-5 border border-gray-800"><span class="text-2xl shrink-0">🎯</span><div><strong>Seu plano de transformação em 90 dias — dia a dia</strong><p class="text-gray-400 text-sm mt-1">Pensamento + ação + resultado. Concreto, mensurável e adaptado a quem tem vida corrida e precisa de resultado real.</p></div></div>
-      </div>
+  </div>
+
+  <div class="bg-gray-900 rounded-xl p-4 mb-6 border border-gray-700 flex items-start gap-3">
+    <span class="text-3xl">&#128737;</span>
+    <div>
+      <p class="font-bold text-sm mb-1">Garantia Incondicional de 7 Dias</p>
+      <p class="text-xs text-gray-400">Se nao ficar satisfeito por qualquer motivo, devolvemos 100% do seu dinheiro. Sem perguntas, sem burocracia.</p>
     </div>
-  </section>
-  <section class="bg-gray-900/50 py-16">
-    <div class="max-w-4xl mx-auto px-6">
-      <h2 class="text-3xl font-black text-center mb-2">O que nossos alunos <span class="gradient-text">estão dizendo</span></h2>
-      <p class="text-gray-400 text-center mb-10">Resultados reais de quem aplicou o método</p>
-      <div class="grid md:grid-cols-3 gap-6">
-        <div class="bg-gray-900 border border-purple-500/20 rounded-xl p-6"><div class="text-yellow-400 mb-3 text-sm">⭐⭐⭐⭐⭐</div><p class="text-gray-300 text-sm mb-4">"Sempre achei que era azar. Depois do método, percebi que era o que eu acreditava sobre dinheiro. Em 3 semanas, fechei dois contratos novos que eu nem tentaria antes."</p><div class="flex items-center gap-3"><div class="w-10 h-10 bg-purple-600 rounded-full flex items-center justify-center font-black text-sm shrink-0">MR</div><div><p class="font-semibold text-sm">Marcela R.</p><p class="text-gray-500 text-xs">São Paulo, SP</p></div></div></div>
-        <div class="bg-gray-900 border border-purple-500/20 rounded-xl p-6"><div class="text-yellow-400 mb-3 text-sm">⭐⭐⭐⭐⭐</div><p class="text-gray-300 text-sm mb-4">"Meu pai sempre disse que 'dinheiro é difícil'. Levei 31 anos acreditando nisso. O protocolo matinal virou meu ritual diário. Mudei de emprego e aumentei minha renda em 70%."</p><div class="flex items-center gap-3"><div class="w-10 h-10 bg-indigo-600 rounded-full flex items-center justify-center font-black text-sm shrink-0">FS</div><div><p class="font-semibold text-sm">Felipe S.</p><p class="text-gray-500 text-xs">Belo Horizonte, MG</p></div></div></div>
-        <div class="bg-gray-900 border border-purple-500/20 rounded-xl p-6"><div class="text-yellow-400 mb-3 text-sm">⭐⭐⭐⭐⭐</div><p class="text-gray-300 text-sm mb-4">"Eu sabia que tinha bloqueios mas não sabia quais. O material é direto ao ponto, sem enrolação. Identifiquei 4 bloqueios meus e já eliminei 3 no primeiro mês."</p><div class="flex items-center gap-3"><div class="w-10 h-10 bg-purple-500 rounded-full flex items-center justify-center font-black text-sm shrink-0">JM</div><div><p class="font-semibold text-sm">Juliana M.</p><p class="text-gray-500 text-xs">Curitiba, PR</p></div></div></div>
-      </div>
-    </div>
-  </section>
-  <section class="max-w-2xl mx-auto px-6 py-8">
-    <div class="bg-gray-900 border border-purple-500/40 rounded-2xl p-8 text-center">
-      <p class="text-gray-400 text-sm mb-2">⏱️ Oferta especial de lançamento — encerra em:</p>
-      <div class="bg-purple-500/15 border border-purple-500/30 rounded-xl px-6 py-3 inline-block mb-6">
-        <span id="countdown-box" class="font-mono font-black text-3xl text-purple-300">00:00:00</span>
-      </div>
-      <p class="text-gray-400 italic mb-6 text-sm">"Você não pode construir um negócio de R$10.000/mês com uma mente de R$2.000/mês."</p>
-      <div class="mb-6">
-        <span class="text-gray-500 line-through text-xl">R$ 97</span>
-        <div class="text-6xl font-black gradient-text">R$ 37</div>
-        <p class="text-gray-400 text-sm mt-1">pagamento único · acesso vitalício · PDF completo</p>
-      </div>
-      <a href="https://pay.kiwify.com.br/u2N56QJ" onclick="fbq('track','InitiateCheckout',{value:37,currency:'BRL'})" class="cta-btn block text-white font-black text-2xl px-10 py-6 rounded-2xl mb-4 no-underline">
-        🧠 QUERO MINHA MENTE MILIONÁRIA — R$ 37
-      </a>
-      <div class="flex items-center justify-center gap-6 text-gray-500 text-xs">
-        <span>🔒 Pagamento seguro</span><span>🛡️ 7 dias de garantia</span><span>⚡ Acesso imediato</span>
-      </div>
-    </div>
-  </section>
-  <section class="max-w-2xl mx-auto px-6 pb-16 text-center">
-    <p class="text-gray-400 mb-6">Sua mente foi programada para a escassez sem que você tivesse escolha.<br>Mas agora você tem.</p>
-    <a href="https://pay.kiwify.com.br/u2N56QJ" onclick="fbq('track','InitiateCheckout',{value:37,currency:'BRL'})" class="cta-btn inline-block text-white font-black text-xl px-10 py-5 rounded-2xl mb-4 no-underline">
-      🧠 QUERO MINHA MENTE MILIONÁRIA — R$ 37
-    </a>
-    <p class="text-gray-500 text-sm">🛡️ Garantia de 7 dias — devolução 100% sem perguntas · Acesso imediato</p>
-  </section>
-  <footer class="border-t border-gray-800 py-8 text-center text-gray-600 text-sm">
-    <p>© 2026 Mente Milionária · Todos os direitos reservados</p>
-  </footer>
-  <script>
-    (function() {
-      var key = 'mm_end';
-      var end = parseInt(localStorage.getItem(key) || '0');
-      if (!end || end < Date.now()) { end = Date.now() + 48 * 3600000; localStorage.setItem(key, end); }
-      function fmt(n) { return String(n).padStart(2, '0'); }
-      function tick() {
-        var d = Math.max(0, end - Date.now());
-        var h = Math.floor(d / 3600000); var m = Math.floor((d % 3600000) / 60000); var s = Math.floor((d % 60000) / 1000);
-        var t = fmt(h) + ':' + fmt(m) + ':' + fmt(s);
-        var el1 = document.getElementById('countdown-top'); var el2 = document.getElementById('countdown-box');
-        if (el1) el1.textContent = t; if (el2) el2.textContent = t;
-      }
-      setInterval(tick, 1000); tick();
-    })();
-  </script>
+  </div>
+</div>
+
+<div class="sbar flex items-center justify-between gap-3">
+  <div class="shrink-0">
+    <p class="text-xs text-gray-400 leading-tight">Por apenas</p>
+    <p class="text-xl font-black text-purple-400">R$37</p>
+  </div>
+  <a href="https://pay.kiwify.com.br/u2N56QJ" class="shake flex-1 bg-purple-600 hover:bg-purple-500 text-white font-black py-3 px-4 rounded-xl text-sm text-center uppercase tracking-wide">
+    COMPRAR AGORA &rarr;
+  </a>
+</div>
+
+<script>
+(function(){
+  var s=600,end=Date.now()+s*1000,done=false;
+  function fmt(n){return String(n).padStart(2,'0')}
+  function tick(){
+    var r=Math.max(0,end-Date.now()),m=Math.floor(r/60000),sc=Math.floor((r%60000)/1000),t=fmt(m)+':'+fmt(sc);
+    ['ct1','ct2'].forEach(function(id){var e=document.getElementById(id);if(e)e.textContent=t});
+    if(r===0&&!done){done=true;var b=document.getElementById('topbar');if(b){b.innerHTML='<p class="text-sm font-black">OFERTA EXPIRANDO - ULTIMA CHANCE ANTES DO PRECO SUBIR</p>';}}
+  }
+  setInterval(tick,1000);tick();
+  var v=25+Math.floor(Math.random()*20),el=document.getElementById('vw');if(el)el.textContent=v;
+  setInterval(function(){v=Math.max(18,Math.min(60,v+(Math.random()>.5?1:-1)));if(el)el.textContent=v;},5000);
+})();
+</script>
 </body>
 </html>
